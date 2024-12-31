@@ -1,0 +1,43 @@
+{
+  "name": "sofast-tauri-api-use-example",
+  "title": "Using Tauri Api For Sofast",
+  "author": "Blushyes",
+  "commands": [
+    {
+      "name": "useTauriApiExample",
+      "title": "使用 Tauri API 示例"
+    }
+  ],
+  "description": "A template for using Tauri API in sofast extension.",
+  "categroies": [
+    "template",
+    "example",
+    "sofast"
+  ],
+  "private": true,
+  "version": "0.0.1-snapshot",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.37"
+  },
+  "devDependencies": {
+    "@tauri-apps/api": "2.0.2",
+    "vite-plugin-css-injected-by-js": "^3.5.2",
+    "@types/glob": "^8.1.0",
+    "@types/node": "^22.7.4",
+    "@tauri-apps/plugin-notification": "2.0.0",
+    "@vitejs/plugin-vue": "^5.1.2",
+    "autoprefixer": "^10.4.20",
+    "glob": "^11.0.0",
+    "rollup-plugin-copy-assets": "^2.0.3",
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1",
+    "vue-tsc": "^2.0.29"
+  }
+}
